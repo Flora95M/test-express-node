@@ -25,6 +25,9 @@ table {
     padding-right: 10%;
     box-sizing: border-box;
 }
+.navbar-wrapper NavLink {
+    cursor: pointer;
+}
 .items {
     width: 100%;
     display: flex;
@@ -52,9 +55,11 @@ table {
     display: flex;
     align-items: center;
     text-align: center;
+ 
 }
 .items li a{
     color: white;
+  
 }
 .bars {
     color: white;
